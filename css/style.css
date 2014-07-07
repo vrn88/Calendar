@@ -1,0 +1,197 @@
+.maincontainer {
+    width: 1000px;
+    min-height: 630px;
+    background: #dde2ed;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.topbar {
+    background: #4c66a4;
+    width: 998px;
+    height: 100px;
+    float: left;
+    padding: 0px;
+    z-index: 1;
+    border: 1px solid #4c66a4;
+}
+
+.logo {
+    float: left;
+    width: 40%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.login {
+    float: right;
+    font-size: 12px;
+    height: 100px;
+}
+
+.label1 {
+    text-align: left;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.inputtext {
+    border: 1px solid #4c66a4;
+}
+
+.leftcontainer {
+    width: 300px;
+    min-height: 530px;
+    float: left;
+    overflow: auto;
+}
+
+#cal-browse {
+    width: 286px;
+    height: 101px;
+    border: 1px solid #4c66a4;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#cal-browse:hover {
+    border: 1px solid green;
+}
+
+#signup {
+    text-align: center;
+    width: 286px;
+    height: 400px;
+    border: 1px solid #4c66a4;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#name1,#name2 {
+    width: 125px;
+    height: 35px;
+    padding: 10px;
+}
+
+.field {
+    margin-top: 10px;
+    width: 254px;
+    height: 35px;
+    padding: 10px;
+}
+
+#signupbutton {
+    margin-top: 30px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    background: #6fb554;
+    height: 35px;
+    border: green;
+    z-index: 200;
+}
+
+.rightcontainer {
+    width: 700px;
+    min-height: 530px;
+    float: right;
+    overflow: auto;
+}
+
+.calcontainer {
+    width: 700px;
+    height: 498px;
+    margin: 0 auto;
+}
+
+.timer {
+    width: 100%;
+    height: 30px;
+    background: #4c66a4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    float: right;
+}
+
+.calendar {
+    border-left: 1px solid #4c66a4;
+}
+
+tr.calendar-row {
+    width: 100%;
+    min-height: 50px;
+}
+
+td.calendar-day,td.calendar-eventday {
+    font-size: 16px;
+    position: relative;
+}
+
+td.calendar-day:hover {
+    background: #eceff5;
+}
+
+.calendar-eventday:hover {
+    background: #eceff5;
+}
+
+td.calendar-day-np {
+    background: #eee;
+    width: 100px;
+    height: 78px;
+    border-bottom: 1px solid #4c66a4;
+    border-right: 1px solid #4c66a4;
+}
+
+.calendar-day,.calendar-eventday {
+    width: 100px;
+    height: 78px;
+    border-bottom: 1px solid #4c66a4;
+    border-right: 1px solid #4c66a4;
+}
+
+td.calendar-day-head {
+    background: #ccc;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-bottom: 1px solid #4c66a4;
+    border-top: 0 solid #4c66a4;
+    border-right: 1px solid #4c66a4;
+}
+
+.day-number {
+    background: #4c66a4;
+    color: #fff;
+    height: 20px;
+    width: 30px;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.day-event {
+    position: absolute;
+    margin-top: -25px;
+    background: #4c66a4;
+    color: #fff;
+    height: 12px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+}
